@@ -1,0 +1,152 @@
+<!-- DEVELOPER: Sheryl Thomas, IS117-003, Fall 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sheryl Thomas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-center">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <!-- logo back to home page-->
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        <img class="img-fluid rounded-circle shadow-4-strong"
+                             alt="sherylLogo" src="imgs/me.jpg" style="width: 80px; height: 80px">
+                    </a>
+                </li>
+                <!-- nav links -->
+                <div class="btn-group">
+                    <a class="btn btn-dark text-center my-auto" href="abtMe.html">About Me</a>
+                    <a class="btn btn-dark text-center my-auto" href="projects.html">Projects</a>
+                    <a class="btn btn-dark text-center my-auto" href="resume.html">Resume</a>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark dropdown-toggle my-auto" data-bs-toggle="dropdown">Contact</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/set8">Github</a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/sheryl-thomas-4476651bb/">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--                <div class="nav-flex">-->
+                <!--                    <li class="nav-item">-->
+                <!--                        <a class="nav-link" href="abtMe.html">About Me</a>-->
+                <!--                    </li>-->
+                <!--                </div>-->
+                <!--                <div class="nav-flex">-->
+                <!--                    <li class="nav-item">-->
+                <!--                        <a class="nav-link" href="projects.html">Projects</a>-->
+                <!--                    </li>-->
+                <!--                </div>-->
+                <!--                <div class="nav-flex">-->
+                <!--                    <li class="nav-item">-->
+                <!--                        <a class="nav-link" href="resume.html">Resume</a>-->
+                <!--                    </li>-->
+                <!--                </div>-->
+                <!--                <div class="nav-flex">-->
+                <!--                    <li class="nav-item">-->
+                <!--                        <a class="nav-link" href="contact.html">Contact Me</a>-->
+                <!--                    </li>-->
+                <!--                </div>-->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="carousel-image" src="imgs/diwali.jpg" alt="sheryl-diwali" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/sparklers.jpg" alt="grad-party" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/joji.jpg" alt="post-joji-concert" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/sza.jpg" alt="pre-sza-concert" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/postsza.jpg" alt="post-sza-concert" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/we10.jpg" alt="sheryls-family-friends" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="imgs/amsterdam.jpg" alt="sheryl-with-friends" class="d-block w-100">
+            </div>
+
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- cards -->
+    <div class="container">
+        <div class="card" style="width:400px">
+            <div class="card-body">
+                <h4 class="card-text">Welcome To My Site</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum sit amet tellus faucibus, gravida nibh in, tincidunt nisl. Etiam feugiat dolor ac urna fermentum feugiat. Praesent quis dui quam. Aenean aliquet ultricies urna nec fermentum. Etiam sit amet venenatis turpis.
+                    Vestibulum blandit egestas dolor tincidunt facilisis. Suspendisse tincidunt, nisl nec vulputate varius, dolor purus tempor augue,
+                    ut varius lectus eros vulputate quam. Curabitur non venenatis quam. Nullam fermentum ipsum quis neque bibendum tempus. Donec eget neque metus. Maecenas lorem sem, pretium laoreet lacinia vel, tristique nec turpis. In sed luctus purus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pulvinar blandit elit at interdum.</p>
+            </div>
+            <img class="card-img-bottom" src="imgs/grad.jpg" alt="grad-photo" style="width:100%">
+        </div>
+        <div class="card" style="width:400px">
+            <div class="card-body">
+                <h4 class="card-text">My Favorite Teacher</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum sit amet tellus faucibus, gravida nibh in, tincidunt nisl. Etiam feugiat dolor ac urna fermentum feugiat. Praesent quis dui quam. Aenean aliquet ultricies urna nec fermentum. Etiam sit amet venenatis turpis.
+                    Vestibulum blandit egestas dolor tincidunt facilisis. Suspendisse tincidunt, nisl nec vulputate varius, dolor purus tempor augue,
+                    ut varius lectus eros vulputate quam. Curabitur non venenatis quam. Nullam fermentum ipsum quis neque bibendum tempus. Donec eget neque metus. Maecenas lorem sem, pretium laoreet lacinia vel, tristique nec turpis. In sed luctus purus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pulvinar blandit elit at interdum.</p>
+            </div>
+            <img class="card-img-bottom" src="imgs/keating.jpg" alt="mrs-keating-and-i" style="width:100%">
+        </div>
+    </div>
+
+
+    <div class="space-footer"></div>
+    <footer>
+        &copy; Sheryl Thomas, 2023 | Terms of Service | Privacy Statement
+    </footer>
+
+</body>
+</html>

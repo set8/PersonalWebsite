@@ -1,0 +1,74 @@
+/* DEVELOPER Sheryl Thomas, IS117-003, Fall 2023 */
+/* style elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    background-color: #696969;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+.w-100 {
+    width: 75vh !important;
+    height: 75vh;
+}
+.carousel-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+    padding-top: 2.5vh;
+}
+.card-text{
+    text-align: center;
+}
+.space-footer {
+    margin: 3vh;
+}
+.space-embed {
+    margin: 3vh;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    padding-top: 2.5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.feature-title {
+    text-align: center;
+}
